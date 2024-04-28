@@ -1,0 +1,268 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "ppy.SDL2-CS/1.0.82": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/SDL2-CS.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SDL2-CS.dll": {}
+        },
+        "contentFiles": {
+          "contentFiles/any/netstandard2.0/app.config": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libSDL2.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x86/native/libSDL2.so": {
+            "assetType": "native",
+            "rid": "linux-x86"
+          },
+          "runtimes/osx-x64/native/libSDL2.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/SDL2.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/SDL2.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "sdl2.nuget/2.30.2": {
+        "type": "package",
+        "dependencies": {
+          "sdl2.nuget.redist": "2.30.2"
+        }
+      },
+      "sdl2.nuget.redist/2.30.2": {
+        "type": "package"
+      }
+    }
+  },
+  "libraries": {
+    "ppy.SDL2-CS/1.0.82": {
+      "sha512": "bFqADOpmHENMqs/tysmxhnD3vS+Ka0xDRQJIv4V04Ym5l/brB9opdxNC/NXcmJN2yiTSkkuYZgJ8bxA4ts4jHw==",
+      "type": "package",
+      "path": "ppy.sdl2-cs/1.0.82",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/app.config",
+        "contentFiles/any/netstandard2.0/app.config",
+        "lib/netstandard2.0/SDL2-CS.dll",
+        "ppy.sdl2-cs.1.0.82.nupkg.sha512",
+        "ppy.sdl2-cs.nuspec",
+        "runtimes/linux-x64/native/libSDL2.so",
+        "runtimes/linux-x86/native/libSDL2.so",
+        "runtimes/osx-x64/native/libSDL2.dylib",
+        "runtimes/win-x64/native/SDL2.dll",
+        "runtimes/win-x86/native/SDL2.dll"
+      ]
+    },
+    "sdl2.nuget/2.30.2": {
+      "sha512": "zSmpZXdYMz5hJAxsA79IiogpcDKm1E3ij6Q5dtIR6ylFLGE/TXWdr7JGCnnCdpDvox4dmR2BvGSCA5f5+ziEGA==",
+      "type": "package",
+      "path": "sdl2.nuget/2.30.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/configurations.autopkg",
+        "build/native/default-propertiesui.xml",
+        "build/native/docs/BUGS.txt",
+        "build/native/docs/COPYING.txt",
+        "build/native/docs/README-SDL.txt",
+        "build/native/docs/README.txt",
+        "build/native/docs/WhatsNew.txt",
+        "build/native/include/SDL.h",
+        "build/native/include/SDL_assert.h",
+        "build/native/include/SDL_atomic.h",
+        "build/native/include/SDL_audio.h",
+        "build/native/include/SDL_bits.h",
+        "build/native/include/SDL_blendmode.h",
+        "build/native/include/SDL_clipboard.h",
+        "build/native/include/SDL_config.h",
+        "build/native/include/SDL_cpuinfo.h",
+        "build/native/include/SDL_egl.h",
+        "build/native/include/SDL_endian.h",
+        "build/native/include/SDL_error.h",
+        "build/native/include/SDL_events.h",
+        "build/native/include/SDL_filesystem.h",
+        "build/native/include/SDL_gamecontroller.h",
+        "build/native/include/SDL_gesture.h",
+        "build/native/include/SDL_guid.h",
+        "build/native/include/SDL_haptic.h",
+        "build/native/include/SDL_hidapi.h",
+        "build/native/include/SDL_hints.h",
+        "build/native/include/SDL_joystick.h",
+        "build/native/include/SDL_keyboard.h",
+        "build/native/include/SDL_keycode.h",
+        "build/native/include/SDL_loadso.h",
+        "build/native/include/SDL_locale.h",
+        "build/native/include/SDL_log.h",
+        "build/native/include/SDL_main.h",
+        "build/native/include/SDL_messagebox.h",
+        "build/native/include/SDL_metal.h",
+        "build/native/include/SDL_misc.h",
+        "build/native/include/SDL_mouse.h",
+        "build/native/include/SDL_mutex.h",
+        "build/native/include/SDL_name.h",
+        "build/native/include/SDL_opengl.h",
+        "build/native/include/SDL_opengl_glext.h",
+        "build/native/include/SDL_opengles.h",
+        "build/native/include/SDL_opengles2.h",
+        "build/native/include/SDL_opengles2_gl2.h",
+        "build/native/include/SDL_opengles2_gl2ext.h",
+        "build/native/include/SDL_opengles2_gl2platform.h",
+        "build/native/include/SDL_opengles2_khrplatform.h",
+        "build/native/include/SDL_pixels.h",
+        "build/native/include/SDL_platform.h",
+        "build/native/include/SDL_power.h",
+        "build/native/include/SDL_quit.h",
+        "build/native/include/SDL_rect.h",
+        "build/native/include/SDL_render.h",
+        "build/native/include/SDL_revision.h",
+        "build/native/include/SDL_rwops.h",
+        "build/native/include/SDL_scancode.h",
+        "build/native/include/SDL_sensor.h",
+        "build/native/include/SDL_shape.h",
+        "build/native/include/SDL_stdinc.h",
+        "build/native/include/SDL_surface.h",
+        "build/native/include/SDL_system.h",
+        "build/native/include/SDL_syswm.h",
+        "build/native/include/SDL_test.h",
+        "build/native/include/SDL_test_assert.h",
+        "build/native/include/SDL_test_common.h",
+        "build/native/include/SDL_test_compare.h",
+        "build/native/include/SDL_test_crc32.h",
+        "build/native/include/SDL_test_font.h",
+        "build/native/include/SDL_test_fuzzer.h",
+        "build/native/include/SDL_test_harness.h",
+        "build/native/include/SDL_test_images.h",
+        "build/native/include/SDL_test_log.h",
+        "build/native/include/SDL_test_md5.h",
+        "build/native/include/SDL_test_memory.h",
+        "build/native/include/SDL_test_random.h",
+        "build/native/include/SDL_thread.h",
+        "build/native/include/SDL_timer.h",
+        "build/native/include/SDL_touch.h",
+        "build/native/include/SDL_types.h",
+        "build/native/include/SDL_version.h",
+        "build/native/include/SDL_video.h",
+        "build/native/include/SDL_vulkan.h",
+        "build/native/include/begin_code.h",
+        "build/native/include/close_code.h",
+        "build/native/lib/Win32/SDL2.lib",
+        "build/native/lib/Win32/SDL2main.lib",
+        "build/native/lib/Win32/SDL2test.lib",
+        "build/native/lib/x64/SDL2.lib",
+        "build/native/lib/x64/SDL2main.lib",
+        "build/native/lib/x64/SDL2test.lib",
+        "build/native/sdl2.nuget.targets",
+        "build/publisher-info.txt",
+        "sdl2.nuget.2.30.2.nupkg.sha512",
+        "sdl2.nuget.nuspec"
+      ]
+    },
+    "sdl2.nuget.redist/2.30.2": {
+      "sha512": "+jUaQxysPQ58e2s4NSfrxloUwTllKl3GCO+Abkg/hdn3o0dY9ZIFRDV96w6A/GqIStkEgjpFJDKnqF9HmH6Kww==",
+      "type": "package",
+      "path": "sdl2.nuget.redist/2.30.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/configurations.autopkg",
+        "build/native/bin/Win32/SDL2.dll",
+        "build/native/bin/x64/SDL2.dll",
+        "build/native/default-propertiesui.xml",
+        "build/native/sdl2.nuget.redist.targets",
+        "build/publisher-info.txt",
+        "sdl2.nuget.redist.2.30.2.nupkg.sha512",
+        "sdl2.nuget.redist.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "ppy.SDL2-CS >= 1.0.82",
+      "sdl2.nuget >= 2.30.2"
+    ]
+  },
+  "packageFolders": {
+    "/Users/yaremayaremcuk/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/yaremayaremcuk/Projects/CHIP8GIT/CHIP8/CHIP8/CHIP8.csproj",
+      "projectName": "CHIP8",
+      "projectPath": "/Users/yaremayaremcuk/Projects/CHIP8GIT/CHIP8/CHIP8/CHIP8.csproj",
+      "packagesPath": "/Users/yaremayaremcuk/.nuget/packages/",
+      "outputPath": "/Users/yaremayaremcuk/Projects/CHIP8GIT/CHIP8/CHIP8/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/yaremayaremcuk/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "ppy.SDL2-CS": {
+            "target": "Package",
+            "version": "[1.0.82, )"
+          },
+          "sdl2.nuget": {
+            "target": "Package",
+            "version": "[2.30.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.315/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

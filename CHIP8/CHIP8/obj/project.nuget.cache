@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "FudAxj4gFhb2efDrpEwLgOjcmtoPMYaxhmrYO6y3roWVZH2ni1K/t5NdEaC1WxRXeZ6Ca71vE1WwXfgIfgAjFg==",
+  "success": true,
+  "projectFilePath": "/Users/yaremayaremcuk/Projects/CHIP8GIT/CHIP8/CHIP8/CHIP8.csproj",
+  "expectedPackageFiles": [
+    "/Users/yaremayaremcuk/.nuget/packages/ppy.sdl2-cs/1.0.82/ppy.sdl2-cs.1.0.82.nupkg.sha512",
+    "/Users/yaremayaremcuk/.nuget/packages/sdl2.nuget/2.30.2/sdl2.nuget.2.30.2.nupkg.sha512",
+    "/Users/yaremayaremcuk/.nuget/packages/sdl2.nuget.redist/2.30.2/sdl2.nuget.redist.2.30.2.nupkg.sha512"
+  ],
+  "logs": []
+}
